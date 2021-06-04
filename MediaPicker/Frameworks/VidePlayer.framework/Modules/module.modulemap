@@ -1,0 +1,11 @@
+framework module VidePlayer {
+  umbrella header "VidePlayer.h"
+
+  export *
+  module * { export * }
+}
+
+module VidePlayer.Swift {
+    header "VidePlayer-Swift.h"
+    requires objc
+}

@@ -1,0 +1,11 @@
+framework module ImagePlayer {
+  umbrella header "ImagePlayer.h"
+
+  export *
+  module * { export * }
+}
+
+module ImagePlayer.Swift {
+    header "ImagePlayer-Swift.h"
+    requires objc
+}
